@@ -14,8 +14,12 @@
   ],
   "rewrites": [
     {
+      "source": "/",
+      "destination": "/Natural Burial/templates/index.html"
+    },
+    {
       "source": "/project",
-      "destination": "/Natural%20Burial/templates/index.html"
+      "destination": "/Natural Burial/templates/index.html"
     }
   ]
 }
