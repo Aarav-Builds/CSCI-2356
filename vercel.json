@@ -1,0 +1,25 @@
+{
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/Natural Burial/templates/index.html"
+    },
+    {
+      "source": "/project",
+      "destination": "/Natural Burial/templates/index.html"
+    }
+  ]
+}
